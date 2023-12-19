@@ -1,6 +1,9 @@
 JTAG (Joint Test Action Group) IEEE 1149.1<br />
 # Architecure<br />
-<p align="center">![image](https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24)</p><br />
+<p align="center">
+![image](https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24)
+</p>
+<br />
 
 # Components
 - TAP ACCESS PORT (TAP)
@@ -25,7 +28,9 @@ TRST - Test Reset
 The TCK and TMS signals drive a finite state machine in the TAP controller. TMS is sampled on the rising edge of TCK and used to advance the state.
 <br />
 <br />
-<p align="center">![image](https://github.com/MuntasirBabul/DFT/assets/100906324/6f9d52a3-523f-4b61-b32b-ae8e4b3c0126)</p>
+<p align="center">
+![image](https://github.com/MuntasirBabul/DFT/assets/100906324/6f9d52a3-523f-4b61-b32b-ae8e4b3c0126)
+</p>
 <br />
 
 The actions taken in each state are as follows:
