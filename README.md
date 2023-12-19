@@ -21,7 +21,9 @@ TRST - Test Reset
 
 # TAP Controller
 The TCK and TMS signals drive a finite state machine in the TAP controller. TMS is sampled on the rising edge of TCK and used to advance the state.
+
 ![image](https://github.com/MuntasirBabul/DFT/assets/100906324/6f9d52a3-523f-4b61-b32b-ae8e4b3c0126)
+
 The actions taken in each state are as follows:
 
 Test-Logic-Reset
