@@ -1,7 +1,7 @@
 JTAG (Joint Test Action Group) IEEE 1149.1<br />
 # Architecure<br />
 <p align="center">
-![image](https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24)
+<img src="https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24" />
 </p>
 <br />
 
