@@ -1,4 +1,6 @@
-JTAG (Joint Test Action Group) IEEE 1149.1
+JTAG (Joint Test Action Group) IEEE 1149.1<br />
+# Architecure<br />
+![image](https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24)<br />
 
 # Components
 - TAP ACCESS PORT (TAP)
