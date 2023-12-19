@@ -6,10 +6,8 @@ JTAG (Joint Test Action Group) IEEE 1149.1<br />
 - Registers
 - Instruction Decoder
 <br />
-<p align="center">
-<img src="https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24" />
-</p>
-<br />
+<p align="center"><img src="https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24" /></p><br /><br />
+
 ## Registers
 Registers are two types
 - Instruction Register
