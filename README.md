@@ -1,16 +1,15 @@
 JTAG (Joint Test Action Group) IEEE 1149.1<br />
 # Architecure<br />
-<p align="center">
-<img src="https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24" />
-</p>
-<br />
-
-# Components
+### Components
 - TAP ACCESS PORT (TAP)
 - TAP Controller
 - Registers
 - Instruction Decoder
-
+<br />
+<p align="center">
+<img src="https://github.com/MuntasirBabul/DFT/assets/100906324/7a26ebcd-52c5-44cd-b2ba-3532f355eb24" />
+</p>
+<br />
 ## Registers
 Registers are two types
 - Instruction Register
@@ -29,7 +28,7 @@ The TCK and TMS signals drive a finite state machine in the TAP controller. TMS 
 <br />
 <br />
 <p align="center">
-![image](https://github.com/MuntasirBabul/DFT/assets/100906324/6f9d52a3-523f-4b61-b32b-ae8e4b3c0126)
+<img src="https://github.com/MuntasirBabul/DFT/assets/100906324/6f9d52a3-523f-4b61-b32b-ae8e4b3c0126" />
 </p>
 <br />
 
