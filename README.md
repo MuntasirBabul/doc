@@ -28,40 +28,40 @@ The TCK and TMS signals drive a finite state machine in the TAP controller. TMS 
 
 The actions taken in each state are as follows:
 
-**Test-Logic-Reset**
+**Test-Logic-Reset**<br />
 In this state all test-modes (for example extest-mode) are reset, which will disable their operation, allowing the chip to follow its normal operation.
 
 At start-up the external logic will drive TMS high for at least 5 TCK cycles. This guarantees to reach the Test-Logic-Reset state and remain there.
 
-**Run-Test/Idle**
+**Run-Test/Idle**<br />
 This is the resting state during normal operation.
 
-**Select-DR-Scan , Select-IR-Scan**
+**Select-DR-Scan , Select-IR-Scan**<br />
 These are the starting states respectively for accessing one of the data registers (the boundary-scan or bypass register in the minimal configuration) or the instruction register.
 
-**Capture-DR , Capture-IR**
+**Capture-DR , Capture-IR**<br />
 These capture the current value of one of the data registers or the instruction register respectively into the scan cells.
 
 This is a slight misnomer for the instruction register, since it is usual to capture status information, rather than the actual instruction with Capture-IR.
 
-**Shift-DR , Shift-IR**
+**Shift-DR , Shift-IR**<br />
 Shift a bit in from TDI (on the rising edge of TCK) and out onto TDO (on the falling edge of TCK) from the currently selected data or instruction register respectively.
 
-**Exit1-DR , Exit1-IR**
+**Exit1-DR , Exit1-IR**<br />
 These are the exit states for the corresponding shift state. From here the state machine can either enter a pause state or enter the update state.
 
-**Pause-DR , Pause-IR**
+**Pause-DR , Pause-IR**<br />
 Pause in shifting data into the data or instruction register. This allows for example test equipment supplying TDO to reload buffers etc.
 
-**Exit2-DR , Exit2-IR**
+**Exit2-DR , Exit2-IR**<br />
 These are the exit states for the corresponding pause state. From here the state machine can either resume shifting or enter the update state.
 
-**Update-DR , Update-IR**
+**Update-DR , Update-IR**<br />
 The value shifted into the scan cells during the previous states is driven into the chip (from inputs) or onto the interconnect (for outputs).
 
 So we have a simple state machine, which allows either data registers or the instruction register to go through its capture-shift-update cycle, with an option to pause during the shifting.
  
 ## Reference Link:
-https://vlsitutorials.com/jtag-architecture-overview/
-https://www.embecosm.com/appnotes/ean5/html/ch02s01s02.html
-https://www.elprocus.com/jtag/
+https://vlsitutorials.com/jtag-architecture-overview/ <br />
+https://www.embecosm.com/appnotes/ean5/html/ch02s01s02.html <br />
+https://www.elprocus.com/jtag/ <br />
